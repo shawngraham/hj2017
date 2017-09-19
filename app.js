@@ -19,6 +19,11 @@ $(document).ready(function() {
             var t3 = grammarTracery.flatten("#origin#");
             var t4 = grammarTracery.flatten("#origin#");
             var t5 = grammarTracery.flatten("#origin#");
+            var byline = grammarTracery.flatten("#bylines#");
+            var t6 = grammarTracery.flatten("#origin#");
+            var byline2 = grammarTracery.flatten("#bylines#");
+            var byline3 = grammarTracery.flatten("#bylines#");
+            var byline4 = grammarTracery.flatten("#bylines#");
 
             console.log(s);
             var div = $("<div/>", {
@@ -76,6 +81,31 @@ $(document).ready(function() {
                 html : t5
             });
 
+            var div12 = $("<div/>", {
+                class : "outputSample",
+                html : byline
+            });
+
+            var div13 = $("<div/>", {
+                class : "outputSample",
+                html : t6
+            });
+
+            var div14 = $("<div/>", {
+                class : "outputSample",
+                html : byline2
+            });
+
+            var div15 = $("<div/>", {
+                class : "outputSample",
+                html : byline3
+            });
+
+            var div16 = $("<div/>", {
+                class : "outputSample",
+                html : byline4
+            });
+
             $("#newsphotos").append(div);
             $("#output").append(div2);
             $("#shout").append(div3);
@@ -87,6 +117,11 @@ $(document).ready(function() {
             $("#output3").append(div9);
             $("#output4").append(div10);
             $("#output5").append(div11);
+            $("#byline").append(div12);
+            $("#output6").append(div13);
+            $("#byline2").append(div14);
+            $("#byline3").append(div15);
+            $("#byline4").append(div15);
 
 
     }
