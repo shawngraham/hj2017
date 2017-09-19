@@ -24,6 +24,14 @@ $(document).ready(function() {
             var byline2 = grammarTracery.flatten("#bylines#");
             var byline3 = grammarTracery.flatten("#bylines#");
             var byline4 = grammarTracery.flatten("#bylines#");
+            var s2 = grammarTracery.flatten("#insertpictures#");
+            var s3 = grammarTracery.flatten("#insertpictures#");
+            var s4 = grammarTracery.flatten("#insertpictures#");
+            var t6 = grammarTracery.flatten("#origin2#");
+            var t7 = grammarTracery.flatten("#origin2#");
+            var t8 = grammarTracery.flatten("#origin2#");
+            var t9 = grammarTracery.flatten("#oldstories#");
+            var t10 = grammarTracery.flatten("#oldstories#");
 
             console.log(s);
             var div = $("<div/>", {
@@ -106,6 +114,46 @@ $(document).ready(function() {
                 html : byline4
             });
 
+            var div17 = $("<div/>", {
+                class : "outputSample",
+                html : s2
+            });
+
+            var div18 = $("<div/>", {
+                class : "outputSample",
+                html : s3
+            });
+
+            var div19 = $("<div/>", {
+                class : "outputSample",
+                html : s4
+            });
+
+            var div20 = $("<div/>", {
+                class : "outputSample",
+                html : t6
+            });
+
+            var div21 = $("<div/>", {
+                class : "outputSample",
+                html : t7
+            });
+
+            var div22 = $("<div/>", {
+                class : "outputSample",
+                html : t8
+            });
+
+            var div23 = $("<div/>", {
+                class : "outputSample",
+                html : t9
+            });
+
+            var div24 = $("<div/>", {
+                class : "outputSample",
+                html : t10
+            });
+
             $("#newsphotos").append(div);
             $("#output").append(div2);
             $("#shout").append(div3);
@@ -121,7 +169,15 @@ $(document).ready(function() {
             $("#output6").append(div13);
             $("#byline2").append(div14);
             $("#byline3").append(div15);
-            $("#byline4").append(div15);
+            $("#byline4").append(div16);
+            $("#newsphotos2").append(div17);
+            $("#newsphotos3").append(div18);
+            $("#newsphotos4").append(div19);
+            $("#output6").append(div20);
+            $("#output7").append(div21);
+            $("#output8").append(div22);
+            $("#output9").append(div23);
+            $("#output10").append(div24);
 
 
     }
