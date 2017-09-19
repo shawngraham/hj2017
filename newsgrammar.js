@@ -31,8 +31,8 @@ var grammar = {
 		"http://media.tumblr.com/tumblr_laxjtlso9K1qzjix8.gif"
 	],
 	"reactionURL": [
-		"http://tinyurl.com/nf8t58q",
-		"http://tinyurl.com/p7lhd4r",
+		"imgs/skull.gif",
+		"imgs/happyskeleton.gif",
 		"http://tinyurl.com/p8jzq4g",
 		"http://tinyurl.com/lt42vrx",
 		"http://tinyurl.com/3ghat59",
@@ -40,7 +40,7 @@ var grammar = {
 		"http://tinyurl.com/lssxt9v",
 		"http://tinyurl.com/nf6oy85",
 		"https://i.giphy.com/media/h5NLPVn3rg0Rq/giphy.webp",
-		"/imgs/PW7MoTD2d9pJK.gif"
+		"imgs/PW7MoTD2d9pJK.gif"
 	],
 	"newsPhoto": [
 		"<br><img class='media' src='#reactionURL#' width='220'><br>"
