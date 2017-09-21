@@ -20,7 +20,7 @@ $(document).ready(function() {
             var t4 = grammarTracery.flatten("#origin#");
             var t5 = grammarTracery.flatten("#origin#");
             var byline = grammarTracery.flatten("#bylines#");
-            var t6 = grammarTracery.flatten("#origin#");
+            var t6 = grammarTracery.flatten("#origin2#");
             var byline2 = grammarTracery.flatten("#bylines#");
             var byline3 = grammarTracery.flatten("#bylines#");
             var byline4 = grammarTracery.flatten("#bylines#");
