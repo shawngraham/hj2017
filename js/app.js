@@ -32,6 +32,8 @@ $(document).ready(function() {
             var t8 = grammarTracery.flatten("#origin2#");
             var t9 = grammarTracery.flatten("#oldstories#");
             var t10 = grammarTracery.flatten("#oldstories#");
+            var s5 = grammarTracery.flatten("#insertpictures#");
+            var s6 = grammarTracery.flatten("#insertpictures#");
 
             console.log(s);
             var div = $("<div/>", {
@@ -154,6 +156,16 @@ $(document).ready(function() {
                 html : t10
             });
 
+            var div = $("<div/>", {
+                class : "outputSample",
+                html : s5
+            });
+
+            var div = $("<div/>", {
+                class : "outputSample",
+                html : s6
+            });
+
             $("#newsphotos").append(div);
             $("#output").append(div2);
             $("#shout").append(div3);
@@ -178,6 +190,8 @@ $(document).ready(function() {
             $("#output8").append(div22);
             $("#output9").append(div23);
             $("#output10").append(div24);
+            $("#newsphotos5").append(div25);
+            $("#newsphotos6").append(div26);
 
 
     }
