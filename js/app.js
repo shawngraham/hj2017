@@ -27,7 +27,7 @@ $(document).ready(function() {
             var s2 = grammarTracery.flatten("#insertpictures#");
             var s3 = grammarTracery.flatten("#insertpictures#");
             var s4 = grammarTracery.flatten("#insertpictures#");
-            var t6 = grammarTracery.flatten("#origin2#");
+            var t6 = grammarTracery.flatten("#oldstories#");
             var t7 = grammarTracery.flatten("#origin2#");
             var t8 = grammarTracery.flatten("#origin2#");
             var t9 = grammarTracery.flatten("#oldstories#");
@@ -185,7 +185,7 @@ $(document).ready(function() {
             $("#newsphotos2").append(div17);
             $("#newsphotos3").append(div18);
             $("#newsphotos4").append(div19);
-            $("#output6").append(div20);
+            $("#output11").append(div20);
             $("#output7").append(div21);
             $("#output8").append(div22);
             $("#output9").append(div23);
