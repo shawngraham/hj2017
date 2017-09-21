@@ -37,7 +37,9 @@ var grammar = {
 		"https://c1.staticflickr.com/3/2872/11141536145_54e78f8e53_m.jpg",
 		"https://c2.staticflickr.com/4/3790/11250093255_1e93e2f4ac_m.jpg",
 		"https://c2.staticflickr.com/4/3780/11249961524_e3dc4c59a0_m.jpg",
-		"https://c2.staticflickr.com/6/5490/11301482866_3dbdaa6cbd_m.jpg"
+		"https://c2.staticflickr.com/6/5490/11301482866_3dbdaa6cbd_m.jpg",
+		"https://c2.staticflickr.com/6/5492/11299082635_21af8ae1a2_m.jpg",
+		"https://c2.staticflickr.com/4/3831/11169692923_eee96ef4a1_m.jpg"
 	],
 	"newsPhoto": [
 		"<br><img class='media' src='#reactionURL#' width='220'><br>"
