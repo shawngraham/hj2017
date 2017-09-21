@@ -16,16 +16,16 @@ var grammar = {
 		"Council"
 	],
 
-	"firstName": ["Tim","Susan","Charles","Agnes","Arabella","Mabel","Elizabeth"],
-	"lastName": ["Smith","Black","Green","Brown","Cooper","Graham","Nadeau"],
-	"town": ["Bristol","Shawville","Quyon","Caldwell","Portage","Chapeau"],
+	"firstName": ["Timothy","Susan","Charles","Agnes","Arabella","Mabel","Elizabeth","Alfred","Charles","Francois","Jean","Marie","Aloysius","Micheline","Michel"],
+	"lastName": ["Smith","Stewart","McGill","Green","Brown","Cooper","Graham","Nadeau","Thibodeau","Fleury","Potvin","Argue","Heffernen"],
+	"town": ["Bristol","Shawville","Quyon","Caldwell","Portage","Chapeau","Weirstead","Campbell's Bay","Fort Coulonge","Fort William","Sheenboro","Chichester","The Swisha"],
 
-	"preamble": ["#firstName# #lastName#, of #town#, was walking in the forest when", "#firstName# #lastName#, denizen of #town#, had just gone to do the chores when"],
-	"accident": ["a pig escaped from its pen, knocking","a beam broke, hitting"],
+	"preamble": ["#firstName# #lastName#, of #town#, was surprised when", "#firstName# #lastName#, denizen of #town#, had just gone to do the chores when"],
+	"accident": ["a pig escaped from its pen, knocking","a beam broke, hitting", "a log gave way, smashing","a cow kicked hard, banging", "a bale fell suddenly, crushing"],
 	"injury":["a leg","an arm","hips","ribs","rib"],
-	"aftermath":["suffering for days, who then died","living in excruciating pain, who then died"],
+	"aftermath":["suffering for days, then died","living in excruciating pain, then died"],
 
-	"origin2": ["News reaches us that #preamble# #accident# the poor individual, breaking #injury#, hurting the poor soul, #aftermath#", "Our correspondent hears that #preamble# #accident# the poor individual, breaking #injury#, hurting the poor soul, #aftermath#","#firstName# #lastName# reports an enjoyable evening was had by all but for when #accident# #firstName# #lastName#. Friends and family wish a speedy recovery.","We hear that Mr. #lastName# is engaged to Miss #lastName# of #town#"],
+	"origin2": ["News reaches us that #preamble# #accident# the poor individual, breaking #injury#. This of course hurt the poor soul grievously, who after, #aftermath#", "Our correspondent hears that #preamble# #accident# the poor individual, breaking #injury#. While the injuries did not appear at first seriousthe poor soul, after #aftermath#","#firstName# #lastName# reports an enjoyable evening was had by all but for when #accident# #firstName# #lastName#. Friends and family wish a speedy recovery.","We hear that Mr. #lastName# is engaged to Miss #lastName# of #town#"],
 
 	"reactionURL": [
 		"https://c2.staticflickr.com/4/3707/11006936494_d97d44763e_m.jpg",
@@ -57,7 +57,7 @@ var grammar = {
 	"product": ["Bonemeal","Salt","Seed","Machinery","Wheat","Barley","Grain","Corn","Pig","Cattle","Dairy","Harness","Horticultural","White Goods","Domestic"],
 	"task": ["Modernize Dresses", "Treat Sunstroke", "Waterproof Linen", "Feed Pigs"],
 
-	"scandal": ["Elections","Gov't","Bones","Academic"],
+	"scandal": ["Elections","Gov't","Bones","#product#"],
 	"machine": ["Thresher","Combine","Harvester","Logdrive","Kiln","Railcar","Woman","Man","#occupation#"],
 	"emotion": ["Flummoxed","Baffled","Concerned","Puzzled","Troubled"],
 	"bylines": ["<span class='headline hl4'> by #firstName# #lastName# </span>","<span class='headline hl6'>#occupation# is #emotion#</span>","<span class='headline hl2'>#machine# seen as Culpable</span>","<span class='headline hl2'>#headline#</span>"]
