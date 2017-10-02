@@ -156,12 +156,12 @@ $(document).ready(function() {
                 html : t10
             });
 
-            var div = $("<div/>", {
+            var div25 = $("<div/>", {
                 class : "outputSample",
                 html : s5
             });
 
-            var div = $("<div/>", {
+            var div26 = $("<div/>", {
                 class : "outputSample",
                 html : s6
             });
