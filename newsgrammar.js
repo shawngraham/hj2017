@@ -39,7 +39,8 @@ var grammar = {
 		"https://c2.staticflickr.com/4/3780/11249961524_e3dc4c59a0_m.jpg",
 		"https://c2.staticflickr.com/6/5490/11301482866_3dbdaa6cbd_m.jpg",
 		"https://c2.staticflickr.com/6/5492/11299082635_21af8ae1a2_m.jpg",
-		"https://c2.staticflickr.com/4/3831/11169692923_eee96ef4a1_m.jpg"
+		"https://c2.staticflickr.com/4/3831/11169692923_eee96ef4a1_m.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/f/fd/Cardiff_giant_exhumed_1869.jpg"
 	],
 	"newsPhoto": [
 		"<br><img class='media' src='#reactionURL#' width='220'><br>"
