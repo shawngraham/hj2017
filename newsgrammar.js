@@ -17,8 +17,9 @@ var grammar = {
 	"accident": ["a pig escaped from its pen, knocking","a beam broke, hitting", "a log gave way, smashing","a cow kicked hard, banging", "a bale fell suddenly, crushing"],
 	"injury":["a leg","an arm","the hips","the ribs","a rib", "the skull"],
 	"aftermath":["died","lived in excruciating pain for a few days, then died","wasted away"],
-
-	"origin2": ["News reaches us that #preamble# #accident# the poor individual, breaking #injury#. This of course hurt the poor soul grievously, who after, #aftermath#", "Our correspondent hears that #preamble# #accident# the poor individual, breaking #injury#. While the injuries did not appear at first serious the poor soul #aftermath#","#firstName# #lastName# reports an enjoyable evening was had by all but for when #accident# #firstName# #lastName#. Friends and family wish a speedy recovery.","We hear that Mr. #lastName# is engaged to Miss #lastName# of #town#","Government officials were in #town#, warning of the dangers of #occupation.s#."],
+	"disease":["cholera","smallpox","chickenpox","cowpox","miasma","yellow feaver","typhus"],
+	
+	"origin2": ["News reaches us that #preamble# #accident# the poor individual, breaking #injury#. This of course hurt the poor soul grievously, who after, #aftermath#", "Our correspondent hears that #preamble# #accident# the poor individual, breaking #injury#. While the injuries did not appear at first serious the poor soul #aftermath#","#firstName# #lastName# reports an enjoyable evening was had by all but for when #accident# #firstName# #lastName#. Friends and family wish a speedy recovery.","We hear that Mr. #lastName# is engaged to Miss #lastName# of #town#","Government officials were in #town#, warning of the dangers of #disease#."],
 
 	"reactionURL": [
 		"https://c2.staticflickr.com/4/3707/11006936494_d97d44763e_m.jpg",
