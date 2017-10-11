@@ -4,18 +4,11 @@
 
 var grammar = {
 
-	"occupation": [
-		"Baker",
-		"Farmer",
-		"Soldier",
-		"Reverend",
-		"Teacher",
-		"Lumberjack",
-		"Nurse",
-		"Mayor",
-		"Council"
-	],
+	"occupation": ["Baker","Farmer","Soldier","Reverend","Teacher","Lumberjack","Nurse","Mayor","Council","Smith"],
 
+	"number": ["two","three","four","five","six","seven"],
+	"weather": ["hail","thunder","storms","snow","rain","mist","fog","sunshine","ice"],
+	
 	"firstName": ["Timothy","Susan","Charles","Agnes","Arabella","Mabel","Elizabeth","Alfred","Charles","Francois","Jean","Marie","Aloysius","Micheline","Michel"],
 	"lastName": ["Smith","Stewart","McGill","Green","Brown","Cooper","Graham","Nadeau","Thibodeau","Fleury","Potvin","Argue","Heffernen"],
 	"town": ["Bristol","Shawville","Quyon","Caldwell","Portage","Chapeau","Weirstead","Campbell's Bay","Fort Coulonge","Fort William","Sheenboro","Chichester","The Swisha"],
