@@ -36,3 +36,13 @@ Syracuse NY Daily Journal via 'Old Fulton NY Post Cards' collection of digitized
 Shawn Graham is a Roman archaeologist cum digital humanist in the Department of History at Carleton University, who hails from the wilds of the Ottawa Valley and still reads the Shawville Equity every week.
 
 Kate Ellenberger is a digital public archaeologist with a background in public outreach, museum work, mapping and databases currently working towards the PhD in anthropological archaeology at Binghamton University. She enjoys far too many cat memes on the interwebs. 
+
+## Licensing
+
+The original css for the newspaper layout is MIT Licensed
+
+The Tracery generative grammar is Apache License Version 2.0, January 2004
+
+We assert that our use of the original source newspapers is fair use.
+
+We release the code in this repository into the wild, such parts of it that are uniquely ours, under [CC BY](https://creativecommons.org/licenses/by/3.0/)
