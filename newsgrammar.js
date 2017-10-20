@@ -48,7 +48,7 @@ var grammar = {
 	"origin": [
 		"#origin2#","#oldstories#"],
 
-	"headline": ["#firstName# #lastName# in #scandal# scandal!","'Fire the #occupation#!' says #lastName#","#machine# kills #lastName#","Man Bites Dog","#lastName# and #lastName# to Wed","New Gov't Regs Coming says #occupation#","How to #task#","The #lastName# Murder", "#town# Troubles","A #occupation#'s view of #occupation.s#","Love in #town#","Latest #product# Prices","Social Notes from #town#"],
+	"headline": ["GIANT bones discovered near #town#","#firstName# #lastName# in #scandal# scandal!","'Fire the #occupation#!' says #lastName#","#machine# kills #lastName#","Man Bites Dog","#lastName# and #lastName# to Wed","New Gov't Regs Coming says #occupation#","How to #task#","The #lastName# Murder", "#town# Troubles","A #occupation#'s view of #occupation.s#","Love in #town#","Latest #product# Prices","Social Notes from #town#"],
 	"product": ["Bonemeal","Salt","Seed","Machinery","Wheat","Barley","Grain","Corn","Pig","Cattle","Dairy","Harness","Horticultural","White Goods","Domestic"],
 	"task": ["Modernize Dresses", "Treat Sunstroke", "Waterproof Linen", "Feed Pigs"],
 
